@@ -26,11 +26,8 @@
       </inertial>
       <visual>
         <geometry>
-          <cylinder radius="0.083" length="0.1485"/>
+          <mesh filename="package://vls_description/meshes/TODO_base.stl"/>
         </geometry>
-        <material name="Cyan">
-          <color rgba="0 1.0 1.0 1.0"/>
-        </material>
       </visual>
       <collision>
         <origin rpy="0 0 0" xyz="0 0 0.07425"/>
@@ -53,9 +50,9 @@
         <inertia ixx="1e-7" ixy="0" ixz="0" iyy="1e-7" iyz="0" izz="1e-7"/>
       </inertial>
       <visual>
-        <origin xyz="0 0 0"/>
+        <origin xyz="0 0 -0.068"/>
         <geometry>
-          <sphere radius="0.05"/>
+          <mesh filename="package://vls_description/meshes/TODO_scan.stl"/>
         </geometry>
       </visual>
     </link>
